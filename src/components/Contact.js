@@ -29,11 +29,13 @@ const Contact = () => {
         </ul>
       </div>
       <div className="contact-map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9387178355854!2d-73.9790185845933!3d40.71272897932954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3173af8a4b%3A0x83b2a6f6a6da4e47!2s121%20Rock%20St%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2s!4v1635091833315!5m2!1sen!2s"
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
+      <iframe
+  title="Google Maps Location"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9387178355854!2d-73.9790185845933!3d40.71272897932954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a3173af8a4b%3A0x83b2a6f6a6da4e47!2s121%20Rock%20St%2C%20New%20York%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2s!4v1635091833315!5m2!1sen!2s"
+  allowFullScreen=""
+  loading="lazy"
+></iframe>
+
       </div>
     </div>
   );
