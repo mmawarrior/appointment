@@ -1,102 +1,124 @@
+/* Container styling */
 .step3-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .progress-bar {
-    height: 8px;
-    background-color: #e0e0e0;
-    border-radius: 4px;
-    overflow: hidden;
-    margin-bottom: 20px;
-  }
-  
-  .progress {
-    height: 100%;
-    background-color: #007bff;
-  }
-  
-  .step3-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-  
-  .back-button {
-    margin-bottom: 20px;
-    padding: 10px 15px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .back-button:hover {
-    background-color: #0056b3;
-  }
-  
-  .step3-content {
-    text-align: center;
-  }
-  
-  .step3-subtitle {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .option-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .option-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    background-color: #ffcc00;
-    border: 2px solid transparent;
-    border-radius: 8px;
-    cursor: pointer;
-    width: 150px;
-    height: 150px;
-    transition: transform 0.2s, border-color 0.2s;
-  }
-  
-  .option-button.selected {
-    border-color: #007bff;
-  }
-  
-  .option-button:hover {
-    transform: scale(1.05);
-  }
-  
-  .option-button p {
-    margin-top: 10px;
-    font-size: 16px;
-  }
-  
-  .next-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .next-button:hover {
-    background-color: #0056b3;
-  }
-  
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px; /* Verhoogde padding voor een ruimere uitstraling */
+  background-color: #ffffff; /* Frisse witte achtergrond voor meer contrast */
+  border-radius: 12px; /* Iets meer afronding voor een modernere look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Iets sterkere schaduw voor diepte */
+}
+
+/* Voortgangsbalk styling */
+.progress-bar {
+  height: 12px; /* Iets verhoogde hoogte voor betere zichtbaarheid */
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 25px; /* Iets meer ruimte onder de voortgangsbalk */
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.4s ease; /* Zachte animatie bij het veranderen van de voortgang */
+}
+
+/* Titel styling */
+.step3-title {
+  font-size: 28px; /* Iets grotere titel voor meer nadruk */
+  font-weight: 700; /* Dikkere tekst voor een professionelere uitstraling */
+  margin-bottom: 25px; /* Iets meer ruimte onder de titel */
+  color: #333; /* Donkerdere kleur voor betere leesbaarheid */
+  text-align: center; /* Gecentreerd voor een nette uitlijning */
+}
+
+/* Terug knop styling */
+.back-button {
+  margin-bottom: 20px;
+  padding: 12px 20px; /* Meer padding voor betere klikbaarheid */
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px; /* Iets meer afronding voor een moderne uitstraling */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Licht verplaatsen bij hover voor meer interactie */
+}
+
+/* Inhoud styling */
+.step3-content {
+  text-align: center;
+}
+
+.step3-subtitle {
+  font-size: 20px; /* Iets grotere tekst voor meer nadruk */
+  margin-bottom: 25px; /* Meer ruimte onder de subtitel */
+  color: #555; /* Zachtere kleur voor subtitel */
+}
+
+/* Optieknoppen styling */
+.option-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.option-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #ffcc00;
+  border: 2px solid transparent;
+  border-radius: 12px; /* Meer afronding voor een zachtere uitstraling */
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Licht schaduw voor meer diepte */
+}
+
+.option-button.selected {
+  border-color: #007bff;
+  transform: scale(1.05); /* Iets vergroten bij selectie */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Grotere schaduw bij selectie voor focus */
+}
+
+.option-button:hover {
+  transform: scale(1.05);
+  background-color: #ff9900; /* Iets donkerdere geel bij hover */
+}
+
+.option-button p {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600; /* Meer nadruk op de tekst onder de iconen */
+  color: #333; /* Donkerdere kleur voor betere leesbaarheid */
+}
+
+/* Volgende knop styling */
+.next-button {
+  margin-top: 30px;
+  padding: 12px 25px; /* Meer padding voor betere klikbaarheid */
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%; /* Knop over de volledige breedte voor betere toegang */
+  text-align: center;
+}
+
+.next-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
