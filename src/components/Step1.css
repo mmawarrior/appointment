@@ -1,0 +1,89 @@
+/* Container styling */
+.step1-container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  margin-top: 50px;
+}
+
+/* Voortgangsbalk styling */
+.progress-bar {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  height: 12px;
+  margin-bottom: 25px;
+}
+
+.progress {
+  height: 100%;
+  background-color: #007bff;
+  border-radius: 12px;
+  width: 15%; /* Stelt de voortgang in op 15% */
+  transition: width 0.3s ease;
+}
+
+/* Titel styling */
+.step1-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Formuliergroep styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #555;
+  display: block;
+}
+
+/* Input veld styling */
+.form-input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Knop styling */
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.submit-button:active {
+  background-color: #004494;
+  transform: translateY(0);
+}

@@ -1,0 +1,92 @@
+/* Algemene stijlen */
+.homepage {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Hero Section */
+.hero-section {
+  background-image: url('');
+  background-size: cover;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.hero-buttons .discover-button,
+.hero-buttons .services-button {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-buttons .services-button {
+  background-color: transparent;
+  border: 2px solid #ffa500;
+}
+
+/* Pricing Section */
+.pricing-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+.pricing-card {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 30%;
+}
+
+.pricing-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.pricing-card p {
+  font-size: 32px;
+  color: #ffa500;
+}
+
+.choose-package {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Contact Section */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+
+.contact-form {
+  width: 30%;
+}
+
+.contact-details {
+  width: 30%;
+}
+
+.contact-map iframe {
+  width: 100%;
+  border-radius: 8px;
+}
